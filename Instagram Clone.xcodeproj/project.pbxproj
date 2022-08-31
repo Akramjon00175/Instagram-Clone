@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C07847328BEEF07005DD7B2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07847228BEEF07005DD7B2 /* Post.swift */; };
+		3C07847728BEF11D005DD7B2 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07847528BEF11D005DD7B2 /* PostTableViewCell.swift */; };
+		3C07847828BEF11D005DD7B2 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C07847628BEF11D005DD7B2 /* PostTableViewCell.xib */; };
 		3C4D5BCE28BD8C0500C9406D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4D5BCC28BD8C0500C9406D /* HomeViewController.swift */; };
 		3C4D5BCF28BD8C0500C9406D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C4D5BCD28BD8C0500C9406D /* HomeViewController.xib */; };
 		3C4D5BD128BD8CDB00C9406D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4D5BD028BD8CDB00C9406D /* BaseViewController.swift */; };
@@ -42,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C07847228BEEF07005DD7B2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		3C07847528BEF11D005DD7B2 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		3C07847628BEF11D005DD7B2 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		3C4D5BCC28BD8C0500C9406D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3C4D5BCD28BD8C0500C9406D /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		3C4D5BD028BD8CDB00C9406D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +94,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C07847028BEEEA0005DD7B2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3C07847228BEEF07005DD7B2 /* Post.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3C07847428BEF0F8005DD7B2 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				3C07847528BEF11D005DD7B2 /* PostTableViewCell.swift */,
+				3C07847628BEF11D005DD7B2 /* PostTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
 		3CF8BE1428BC35EC003491C1 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +134,8 @@
 		3CF8BE1F28BC35EC003491C1 /* Instagram Clone */ = {
 			isa = PBXGroup;
 			children = (
+				3C07847428BEF0F8005DD7B2 /* cell */,
+				3C07847028BEEEA0005DD7B2 /* model */,
 				3CF8BE5028BC35FF003491C1 /* apputils */,
 				3CF8BE5528BC370F003491C1 /* controllers */,
 				3CF8BE2228BC35EC003491C1 /* SceneDelegate.swift */,
@@ -269,6 +294,7 @@
 				3CF8BE5428BC368F003491C1 /* SignInViewController.xib in Resources */,
 				3CF8BE2D28BC35EF003491C1 /* LaunchScreen.storyboard in Resources */,
 				3CF8BE2A28BC35EF003491C1 /* Assets.xcassets in Resources */,
+				3C07847828BEF11D005DD7B2 /* PostTableViewCell.xib in Resources */,
 				3CF8BE2828BC35ED003491C1 /* Main.storyboard in Resources */,
 				3C4D5BCF28BD8C0500C9406D /* HomeViewController.xib in Resources */,
 			);
@@ -298,8 +324,10 @@
 				3C4D5BCE28BD8C0500C9406D /* HomeViewController.swift in Sources */,
 				3CF8BE2128BC35EC003491C1 /* AppDelegate.swift in Sources */,
 				3CF8BE2328BC35EC003491C1 /* SceneDelegate.swift in Sources */,
+				3C07847728BEF11D005DD7B2 /* PostTableViewCell.swift in Sources */,
 				3CF8BE5828BC3813003491C1 /* SignUpViewController.swift in Sources */,
 				3CF8BE5328BC368F003491C1 /* SignInViewController.swift in Sources */,
+				3C07847328BEEF07005DD7B2 /* Post.swift in Sources */,
 				3C4D5BD128BD8CDB00C9406D /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
